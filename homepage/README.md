@@ -1,1 +1,1 @@
-This is my first html and css project! I used some grid and flexbox concepts and learned how to make use of classes, and IDs. Div city, baby. 
+This is my first html and css project! I used some grid and flexbox concepts and learned how to make use of classes, and IDs. Div city, baby. Some next steps could be to make things more responsive, add hover effects and put some more small images in there. 
