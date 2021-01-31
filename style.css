@@ -1,0 +1,181 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    /* line-height: 1; */
+    padding: 25px;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* START */
+
+body {
+    background-color: white;
+    font-family: arial,sans-serif;
+    font-size: 14px;   
+    color: black; 
+}
+
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+}
+
+li {
+    padding: 8px;
+    display: inline;
+}
+
+button {
+    border-radius: 2px;   
+    background-color: #f2f2f2;
+}
+
+.button1:hover {
+    border: 1px solid #c9c9c9;
+    
+}
+
+.button2:hover {
+    border: 1px solid #c9c9c9;
+}
+
+.rs-head {  
+    float: right;
+    float: top;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+.centerdiv {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%)  
+}
+
+#gLogo {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -180%)
+}
+
+#search-box {
+    position: static;
+    height: 44px;
+    width: 582px;
+    border: 1px solid #c9c9c9;
+    border-radius: 25px;
+}
+
+#search-box placeholder{
+    border: solid 5px goldenrod;
+}
+
+.query{
+    display: inline-block;    
+    padding: 9px;
+}
+
+button {
+    border: none;  
+}
+
+.input-buttons {   
+    display: flex;
+    padding: 25px;
+    color: rgb(173, 169, 169);
+    justify-content: center;
+    border: none;  
+}
+
+.sign-in{
+    font-weight: bold;
+    padding: 5px 12px 5px 12px;
+    color: white;
+    background: #4285f4
+}
+
+.footer {
+    color: rgb(112, 117, 122);
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    border: 1px solid #c9c9c9;
+    line-height: 40px;
+    background-color: #f2f2f2;
+    width: 100%  
+}
+
+.footer .c-foot{
+    position: fixed;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%)
+}
+.footer .rs-foot{
+    float: right;
+    position: fixed;
+    right: 20px;
+}
+
+.footer .ls-foot{
+    float: left;
+    position: static;   
+}
+
