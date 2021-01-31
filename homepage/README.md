@@ -1,0 +1,1 @@
+This is my first html and css project! I used some grid and flexbox concepts and learned how to make use of classes, and IDs. Div city, baby. 
